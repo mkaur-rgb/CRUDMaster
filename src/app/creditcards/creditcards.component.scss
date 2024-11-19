@@ -1,0 +1,27 @@
+
+.count-card {
+    width:24%;
+    margin:5px;
+    padding:20px;
+}
+.bg-success {
+    background-color: lightgreen;
+}
+.bg-warning {
+    background-color: lightcoral;
+}
+.bg-info {
+    background-color: lightblue;
+}
+.bg-primary {
+    background-color: lightyellow
+}
+.custom-class{
+    display:block;
+}
+:root {
+    --bs-primary: #ff0000; /* Your custom primary color */
+  }
+// @include media-breakpoint-up(sm){
+//     .custom-class{display:block;}
+// }
